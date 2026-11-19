@@ -19,7 +19,7 @@ public class BillingService {
 
         public static double calculateDeliveryCost(String city, double weightKg) {
         double baseRate = "Ivano-Frankivsk".equals(customer.city) ? 50.0 : 110.0;
-        return baseRate + (weightKg * 12.0);
+        return baseRate + (weightKg * 15.0);
     }
 
     
