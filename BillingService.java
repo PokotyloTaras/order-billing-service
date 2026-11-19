@@ -5,7 +5,7 @@ public class BillingService {
         public String email;
         public String passwordHash;
         public String city;
-        public int loyaltyPoints;
+        public int loyaltysPoints;
 
         public CustomerProfile(int userId, String email, String passwordHash, String city, int loyaltyPoints) {
             this.userId = userId;
